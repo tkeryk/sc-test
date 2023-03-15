@@ -2,6 +2,7 @@ name: sc-client-server-tests
 
 
 
+
 on:
   pull_request:
     types: [ opened, synchronize, reopened ]

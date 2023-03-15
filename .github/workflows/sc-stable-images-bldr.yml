@@ -1,0 +1,39 @@
+name: sc-stable-images-bldr
+# Scheduled GitHub Actions run on the default or base branch, as specified by the documentation:
+#   Scheduled workflows run on the latest commit on the default or base branch.
+on:
+  schedule:
+    # UTC time 
+    - cron:  '45 07 * * *'
+
+jobs: 
+  build-sc-docker-images:
+    name: Run SAI Challenger tests in client-server mode
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v3
+    - name: Update submodules
+      run: git submodule update --init
+    - name: Build client docker image
+      run: | 
+           ./build.sh -i client
+    - name: Build client docker image with SAI thrift
+      run: | 
+           ./build.sh -i client -s thrift
+    - name: Build server docker image
+      run: ./build.sh -i server
+    - name: Log into GitHub Container Registry
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login https://ghcr.io -u ${{ github.actor }} --password-stdin
+    - name: Add tag for client docker image
+      run: docker tag sc-client:latest ghcr.io/taras-keryk-plv/sc-client:latest
+    - name: Push client docker image to ghcr.io
+      run: docker push ghcr.io/taras-keryk-plv/sc-client:latest
+    - name: Add tag for client docker image with SAI thrift
+      run: docker tag sc-client:latest ghcr.io/taras-keryk-plv/sc-client:latest
+    - name: Push client docker image with SAI thrift to ghcr.io
+      run: docker push ghcr.io/taras-keryk-plv/sc-client:latest
+    - name: Add tag for server docker image
+      run: docker tag sc-client:latest ghcr.io/taras-keryk-plv/sc-client:latest
+    - name: Push server docker image to ghcr.io
+      run: docker push ghcr.io/taras-keryk-plv/sc-server-trident2-saivs:latest
+

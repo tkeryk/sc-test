@@ -1,0 +1,48 @@
+03/03/2023 09:40:36 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 09:40:36 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 09:50:43 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 09:50:43 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 09:50:49 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 09:50:49 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 10:42:37 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 10:43:35 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 10:43:44 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 10:43:44 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 10:43:46 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 10:43:46 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 10:57:19 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 10:57:19 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 11:10:55 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 11:10:55 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 11:11:16 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 11:11:16 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 11:12:04 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 11:12:04 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 11:18:44 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 11:18:44 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 11:20:49 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 11:20:49 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 11:22:59 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 11:22:59 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 11:23:26 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 11:23:26 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 11:24:36 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 11:24:36 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 11:36:09 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 11:36:09 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 11:46:29 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 11:46:29 AM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 12:11:39 PM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 12:11:39 PM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 12:12:50 PM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 12:12:50 PM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 12:12:52 PM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 12:12:52 PM - dataplane - dataplane.py - INFO - Thread exit
+03/03/2023 12:14:07 PM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/03/2023 12:14:07 PM - dataplane - dataplane.py - INFO - Thread exit
+03/08/2023 05:30:57 PM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/08/2023 05:30:57 PM - dataplane - dataplane.py - INFO - Thread exit
+03/11/2023 06:50:35 PM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/11/2023 06:50:35 PM - dataplane - dataplane.py - INFO - Thread exit
+03/13/2023 07:06:48 AM - /sai-challenger/usecases/sai-ptf/SAI/ptf/saifdb.py:FdbAttributeTest - base_tests.py - INFO - ** END TEST CASE saifdb.FdbAttributeTest
+03/13/2023 07:06:48 AM - dataplane - dataplane.py - INFO - Thread exit

@@ -1,0 +1,2667 @@
+============================= test session starts ==============================
+platform linux -- Python 3.7.3, pytest-7.2.1, pluggy-1.0.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+metadata: {'Python': '3.7.3', 'Platform': 'Linux-5.15.0-60-generic-x86_64-with-debian-10.13', 'Packages': {'pytest': '7.2.1', 'pluggy': '1.0.0'}, 'Plugins': {'dependency': '0.5.1', 'metadata': '2.0.4', 'html': '3.2.0'}}
+rootdir: /sai-challenger, configfile: pytest.ini
+plugins: dependency-0.5.1, metadata-2.0.4, html-3.2.0
+collecting ... collected 568 items / 389 deselected / 179 selected
+
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_TYPE-sai_int32_t] SKIPPED [  0%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_OPER_STATUS-sai_int32_t] PASSED [  1%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SUPPORTED_BREAKOUT_MODE_TYPE-sai_s32_list_t] SKIPPED [  1%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_CURRENT_BREAKOUT_MODE_TYPE-sai_int32_t] SKIPPED [  2%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_NUMBER_OF_QUEUES-sai_uint32_t] PASSED [  2%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_QUEUE_LIST-sai_object_list_t] PASSED [  3%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_NUMBER_OF_SCHEDULER_GROUPS-sai_uint32_t] PASSED [  3%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_SCHEDULER_GROUP_LIST-sai_object_list_t] PASSED [  4%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_MAXIMUM_HEADROOM_SIZE-sai_uint32_t] SKIPPED [  5%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SUPPORTED_SPEED-sai_u32_list_t] SKIPPED [  5%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SUPPORTED_FEC_MODE-sai_s32_list_t] SKIPPED [  6%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SUPPORTED_FEC_MODE_EXTENDED-sai_s32_list_t] SKIPPED [  6%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SUPPORTED_HALF_DUPLEX_SPEED-sai_u32_list_t] SKIPPED [  7%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SUPPORTED_AUTO_NEG_MODE-bool] PASSED [  7%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SUPPORTED_FLOW_CONTROL_MODE-sai_int32_t] SKIPPED [  8%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SUPPORTED_ASYMMETRIC_PAUSE_MODE-bool] SKIPPED [  8%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SUPPORTED_MEDIA_TYPE-sai_int32_t] SKIPPED [  9%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_REMOTE_ADVERTISED_SPEED-sai_u32_list_t] SKIPPED [ 10%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_REMOTE_ADVERTISED_FEC_MODE-sai_s32_list_t] SKIPPED [ 10%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_REMOTE_ADVERTISED_FEC_MODE_EXTENDED-sai_s32_list_t] SKIPPED [ 11%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_REMOTE_ADVERTISED_HALF_DUPLEX_SPEED-sai_u32_list_t] SKIPPED [ 11%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_REMOTE_ADVERTISED_AUTO_NEG_MODE-bool] SKIPPED [ 12%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_REMOTE_ADVERTISED_FLOW_CONTROL_MODE-sai_int32_t] SKIPPED [ 12%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_REMOTE_ADVERTISED_ASYMMETRIC_PAUSE_MODE-bool] SKIPPED [ 13%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_REMOTE_ADVERTISED_MEDIA_TYPE-sai_int32_t] SKIPPED [ 13%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_REMOTE_ADVERTISED_OUI_CODE-sai_uint32_t] SKIPPED [ 14%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_NUMBER_OF_INGRESS_PRIORITY_GROUPS-sai_uint32_t] PASSED [ 15%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_INGRESS_PRIORITY_GROUP_LIST-sai_object_list_t] PASSED [ 15%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EYE_VALUES-sai_port_eye_values_list_t] FAILED [ 16%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_OPER_SPEED-sai_uint32_t] PASSED [ 16%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_HW_LANE_LIST-sai_u32_list_t] PASSED [ 17%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SPEED-sai_uint32_t] PASSED [ 17%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FULL_DUPLEX_MODE-bool] SKIPPED [ 18%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_AUTO_NEG_MODE-bool] SKIPPED [ 18%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADMIN_STATE-bool] PASSED [ 19%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_MEDIA_TYPE-sai_int32_t] SKIPPED [ 20%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADVERTISED_SPEED-sai_u32_list_t] SKIPPED [ 20%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADVERTISED_FEC_MODE-sai_s32_list_t] SKIPPED [ 21%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADVERTISED_FEC_MODE_EXTENDED-sai_s32_list_t] SKIPPED [ 21%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADVERTISED_HALF_DUPLEX_SPEED-sai_u32_list_t] SKIPPED [ 22%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADVERTISED_AUTO_NEG_MODE-bool] SKIPPED [ 22%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADVERTISED_FLOW_CONTROL_MODE-sai_int32_t] SKIPPED [ 23%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADVERTISED_ASYMMETRIC_PAUSE_MODE-bool] SKIPPED [ 24%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADVERTISED_MEDIA_TYPE-sai_int32_t] SKIPPED [ 24%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADVERTISED_OUI_CODE-sai_uint32_t] SKIPPED [ 25%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PORT_VLAN_ID-sai_uint16_t] PASSED [ 25%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY-sai_uint8_t] SKIPPED [ 26%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_DROP_UNTAGGED-bool] SKIPPED [ 26%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_DROP_TAGGED-bool] SKIPPED [ 27%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-sai_int32_t] SKIPPED [ 27%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_USE_EXTENDED_FEC-bool] SKIPPED [ 28%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FEC_MODE-sai_int32_t] SKIPPED [ 29%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FEC_MODE_EXTENDED-sai_int32_t] SKIPPED [ 29%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_UPDATE_DSCP-bool] SKIPPED [ 30%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_MTU-sai_uint32_t] PASSED [ 30%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FLOOD_STORM_CONTROL_POLICER_ID-sai_object_id_t] SKIPPED [ 31%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_BROADCAST_STORM_CONTROL_POLICER_ID-sai_object_id_t] SKIPPED [ 31%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_MULTICAST_STORM_CONTROL_POLICER_ID-sai_object_id_t] SKIPPED [ 32%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_GLOBAL_FLOW_CONTROL_MODE-sai_int32_t] SKIPPED [ 32%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_INGRESS_ACL-sai_object_id_t] SKIPPED [ 33%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EGRESS_ACL-sai_object_id_t] SKIPPED [ 34%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_INGRESS_MACSEC_ACL-sai_object_id_t] SKIPPED [ 34%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EGRESS_MACSEC_ACL-sai_object_id_t] SKIPPED [ 35%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_MACSEC_PORT_LIST-sai_object_list_t] SKIPPED [ 35%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_INGRESS_MIRROR_SESSION-sai_object_list_t] SKIPPED [ 36%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EGRESS_MIRROR_SESSION-sai_object_list_t] SKIPPED [ 36%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_INGRESS_SAMPLEPACKET_ENABLE-sai_object_id_t] SKIPPED [ 37%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EGRESS_SAMPLEPACKET_ENABLE-sai_object_id_t] SKIPPED [ 37%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_INGRESS_SAMPLE_MIRROR_SESSION-sai_object_list_t] SKIPPED [ 38%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EGRESS_SAMPLE_MIRROR_SESSION-sai_object_list_t] SKIPPED [ 39%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_POLICER_ID-sai_object_id_t] SKIPPED [ 39%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_DEFAULT_TC-sai_uint8_t] SKIPPED [ 40%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_DOT1P_TO_TC_MAP-sai_object_id_t] SKIPPED [ 40%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_DOT1P_TO_COLOR_MAP-sai_object_id_t] SKIPPED [ 41%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_DSCP_TO_TC_MAP-sai_object_id_t] SKIPPED [ 41%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_DSCP_TO_COLOR_MAP-sai_object_id_t] SKIPPED [ 42%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_TC_TO_QUEUE_MAP-sai_object_id_t] SKIPPED [ 43%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_DOT1P_MAP-sai_object_id_t] SKIPPED [ 43%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_DSCP_MAP-sai_object_id_t] SKIPPED [ 44%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_TC_TO_PRIORITY_GROUP_MAP-sai_object_id_t] SKIPPED [ 44%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_PFC_PRIORITY_TO_PRIORITY_GROUP_MAP-sai_object_id_t] SKIPPED [ 45%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_PFC_PRIORITY_TO_QUEUE_MAP-sai_object_id_t] SKIPPED [ 45%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_SCHEDULER_PROFILE_ID-sai_object_id_t] SKIPPED [ 46%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_INGRESS_BUFFER_PROFILE_LIST-sai_object_list_t] SKIPPED [ 46%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_EGRESS_BUFFER_PROFILE_LIST-sai_object_list_t] SKIPPED [ 47%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRIORITY_FLOW_CONTROL_MODE-sai_int32_t] SKIPPED [ 48%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRIORITY_FLOW_CONTROL-sai_uint8_t] SKIPPED [ 48%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRIORITY_FLOW_CONTROL_RX-sai_uint8_t] SKIPPED [ 49%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRIORITY_FLOW_CONTROL_TX-sai_uint8_t] SKIPPED [ 49%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_META_DATA-sai_uint32_t] SKIPPED [ 50%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EGRESS_BLOCK_PORT_LIST-sai_object_list_t] SKIPPED [ 50%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_HW_PROFILE_ID-sai_uint64_t] SKIPPED [ 51%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EEE_ENABLE-bool] SKIPPED [ 51%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EEE_IDLE_TIME-sai_uint16_t] SKIPPED [ 52%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EEE_WAKE_TIME-sai_uint16_t] SKIPPED [ 53%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PORT_POOL_LIST-sai_object_list_t] SKIPPED [ 53%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ISOLATION_GROUP-sai_object_id_t] SKIPPED [ 54%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PKT_TX_ENABLE-bool] SKIPPED [ 54%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_TAM_OBJECT-sai_object_list_t] SKIPPED [ 55%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SERDES_PREEMPHASIS-sai_u32_list_t] SKIPPED [ 55%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SERDES_IDRIVER-sai_u32_list_t] SKIPPED [ 56%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SERDES_IPREDRIVER-sai_u32_list_t] SKIPPED [ 56%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_LINK_TRAINING_ENABLE-bool] SKIPPED [ 57%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PTP_MODE-sai_int32_t] SKIPPED [ 58%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_INTERFACE_TYPE-sai_int32_t] SKIPPED [ 58%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ADVERTISED_INTERFACE_TYPE-sai_s32_list_t] SKIPPED [ 59%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_REFERENCE_CLOCK-sai_uint64_t] SKIPPED [ 59%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRBS_POLYNOMIAL-sai_uint32_t] SKIPPED [ 60%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PORT_SERDES_ID-sai_object_id_t] PASSED [ 60%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_LINK_TRAINING_FAILURE_STATUS-sai_int32_t] SKIPPED [ 61%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_LINK_TRAINING_RX_STATUS-sai_int32_t] SKIPPED [ 62%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRBS_CONFIG-sai_int32_t] SKIPPED [ 62%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRBS_LOCK_STATUS-bool] SKIPPED [ 63%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRBS_LOCK_LOSS_STATUS-bool] SKIPPED [ 63%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRBS_RX_STATUS-sai_int32_t] SKIPPED [ 64%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRBS_RX_STATE-sai_prbs_rx_state_t] FAILED [ 64%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_AUTO_NEG_STATUS-bool] SKIPPED [ 65%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_DISABLE_DECREMENT_TTL-bool] SKIPPED [ 65%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_MPLS_EXP_TO_TC_MAP-sai_object_id_t] SKIPPED [ 66%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_MPLS_EXP_TO_COLOR_MAP-sai_object_id_t] SKIPPED [ 67%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_MPLS_EXP_MAP-sai_object_id_t] SKIPPED [ 67%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_TPID-sai_uint16_t] SKIPPED [ 68%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ERR_STATUS_LIST-sai_port_err_status_list_t] FAILED [ 68%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FABRIC_ATTACHED-bool] SKIPPED [ 69%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FABRIC_ATTACHED_SWITCH_TYPE-sai_int32_t] SKIPPED [ 69%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FABRIC_ATTACHED_SWITCH_ID-sai_uint32_t] SKIPPED [ 70%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FABRIC_ATTACHED_PORT_INDEX-sai_uint32_t] SKIPPED [ 70%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FABRIC_REACHABILITY-sai_fabric_port_reachability_t] FAILED [ 71%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SYSTEM_PORT-sai_object_id_t] SKIPPED [ 72%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_AUTO_NEG_FEC_MODE_OVERRIDE-bool] SKIPPED [ 72%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_LOOPBACK_MODE-sai_int32_t] SKIPPED [ 73%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_MDIX_MODE_STATUS-sai_int32_t] SKIPPED [ 73%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_MDIX_MODE_CONFIG-sai_int32_t] SKIPPED [ 74%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_AUTO_NEG_CONFIG_MODE-sai_int32_t] SKIPPED [ 74%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_1000X_SGMII_SLAVE_AUTODETECT-bool] SKIPPED [ 75%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_MODULE_TYPE-sai_int32_t] SKIPPED [ 75%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_DUAL_MEDIA-sai_int32_t] SKIPPED [ 76%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_AUTO_NEG_FEC_MODE_EXTENDED-sai_int32_t] SKIPPED [ 77%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_IPG-sai_uint32_t] SKIPPED [ 77%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_GLOBAL_FLOW_CONTROL_FORWARD-bool] SKIPPED [ 78%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRIORITY_FLOW_CONTROL_FORWARD-bool] SKIPPED [ 78%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_DSCP_TO_FORWARDING_CLASS_MAP-sai_object_id_t] SKIPPED [ 79%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_QOS_MPLS_EXP_TO_FORWARDING_CLASS_MAP-sai_object_id_t] SKIPPED [ 79%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_IPSEC_PORT-sai_object_id_t] SKIPPED [ 80%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PFC_TC_DLD_INTERVAL_RANGE-sai_u32_range_t] SKIPPED [ 81%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PFC_TC_DLD_INTERVAL-sai_map_list_t] SKIPPED [ 81%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PFC_TC_DLR_INTERVAL_RANGE-sai_u32_range_t] SKIPPED [ 82%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PFC_TC_DLR_INTERVAL-sai_map_list_t] SKIPPED [ 82%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_SUPPORTED_LINK_TRAINING_MODE-bool] SKIPPED [ 83%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_RX_SIGNAL_DETECT-sai_port_lane_latch_status_list_t] FAILED [ 83%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_RX_LOCK_STATUS-sai_port_lane_latch_status_list_t] FAILED [ 84%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PCS_RX_LINK_STATUS-sai_latch_status_t] FAILED [ 84%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FEC_ALIGNMENT_LOCK-sai_port_lane_latch_status_list_t] FAILED [ 85%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FABRIC_ISOLATE-bool] FAILED [ 86%]
+ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_MAX_FEC_SYMBOL_ERRORS_DETECTABLE-sai_uint32_t] FAILED [ 86%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_ADMIN_STATE-true] FAILED [ 87%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_ADMIN_STATE-false] FAILED [ 87%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_PORT_VLAN_ID-100] FAILED [ 88%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY-3] FAILED [ 88%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_DROP_UNTAGGED-true] FAILED [ 89%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_DROP_UNTAGGED-false] FAILED [ 89%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_DROP_TAGGED-true] FAILED [ 90%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_DROP_TAGGED-false] FAILED [ 91%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY] FAILED [ 91%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE] FAILED [ 92%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC] FAILED [ 92%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_UPDATE_DSCP-true] FAILED [ 93%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_UPDATE_DSCP-false] FAILED [ 93%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_MTU-9000] FAILED         [ 94%]
+ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_TPID-37120] FAILED       [ 94%]
+ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_ADMIN_STATE-bool] FAILED [ 95%]
+ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_PORT_VLAN_ID-sai_uint16_t] FAILED [ 96%]
+ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY-sai_uint8_t] FAILED [ 96%]
+ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_DROP_UNTAGGED-bool] FAILED [ 97%]
+ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_DROP_TAGGED-bool] FAILED [ 97%]
+ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-sai_port_internal_loopback_mode_t] FAILED [ 98%]
+ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_UPDATE_DSCP-bool] FAILED [ 98%]
+ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_MTU-sai_uint32_t] FAILED [ 99%]
+ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_TPID-sai_uint16_t] FAILED [100%]
+
+=================================== FAILURES ===================================
+_ test_get_before_set_attr[SAI_PORT_ATTR_EYE_VALUES-sai_port_eye_values_list_t] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_EYE_VALUES'
+attr_type = 'sai_port_eye_values_list_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        port_attrs
+    )
+    def test_get_before_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):#, attr_val):
+        status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+>       npu.assert_status_success(status)
+
+ut/test_port_ut.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>, status = 'not supported'
+skip_not_supported = True, skip_not_implemented = True
+
+    def assert_status_success(self, status, skip_not_supported=True, skip_not_implemented=True):
+        if skip_not_supported:
+            if status == "SAI_STATUS_NOT_SUPPORTED" or status == "SAI_STATUS_ATTR_NOT_SUPPORTED_0":
+                pytest.skip("not supported")
+    
+        if skip_not_implemented:
+            if status == "SAI_STATUS_NOT_IMPLEMENTED" or status == "SAI_STATUS_ATTR_NOT_IMPLEMENTED_0":
+                pytest.skip("not implemented")
+    
+>       assert status == "SAI_STATUS_SUCCESS"
+E       AssertionError
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:373: AssertionError
+__ test_get_before_set_attr[SAI_PORT_ATTR_PRBS_RX_STATE-sai_prbs_rx_state_t] ___
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_PRBS_RX_STATE'
+attr_type = 'sai_prbs_rx_state_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        port_attrs
+    )
+    def test_get_before_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):#, attr_val):
+        status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+>       npu.assert_status_success(status)
+
+ut/test_port_ut.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>, status = 'not supported'
+skip_not_supported = True, skip_not_implemented = True
+
+    def assert_status_success(self, status, skip_not_supported=True, skip_not_implemented=True):
+        if skip_not_supported:
+            if status == "SAI_STATUS_NOT_SUPPORTED" or status == "SAI_STATUS_ATTR_NOT_SUPPORTED_0":
+                pytest.skip("not supported")
+    
+        if skip_not_implemented:
+            if status == "SAI_STATUS_NOT_IMPLEMENTED" or status == "SAI_STATUS_ATTR_NOT_IMPLEMENTED_0":
+                pytest.skip("not implemented")
+    
+>       assert status == "SAI_STATUS_SUCCESS"
+E       AssertionError
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:373: AssertionError
+_ test_get_before_set_attr[SAI_PORT_ATTR_ERR_STATUS_LIST-sai_port_err_status_list_t] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_ERR_STATUS_LIST'
+attr_type = 'sai_port_err_status_list_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        port_attrs
+    )
+    def test_get_before_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):#, attr_val):
+        status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+>       npu.assert_status_success(status)
+
+ut/test_port_ut.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>, status = 'not supported'
+skip_not_supported = True, skip_not_implemented = True
+
+    def assert_status_success(self, status, skip_not_supported=True, skip_not_implemented=True):
+        if skip_not_supported:
+            if status == "SAI_STATUS_NOT_SUPPORTED" or status == "SAI_STATUS_ATTR_NOT_SUPPORTED_0":
+                pytest.skip("not supported")
+    
+        if skip_not_implemented:
+            if status == "SAI_STATUS_NOT_IMPLEMENTED" or status == "SAI_STATUS_ATTR_NOT_IMPLEMENTED_0":
+                pytest.skip("not implemented")
+    
+>       assert status == "SAI_STATUS_SUCCESS"
+E       AssertionError
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:373: AssertionError
+_ test_get_before_set_attr[SAI_PORT_ATTR_FABRIC_REACHABILITY-sai_fabric_port_reachability_t] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_FABRIC_REACHABILITY'
+attr_type = 'sai_fabric_port_reachability_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        port_attrs
+    )
+    def test_get_before_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):#, attr_val):
+        status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+>       npu.assert_status_success(status)
+
+ut/test_port_ut.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>, status = 'not supported'
+skip_not_supported = True, skip_not_implemented = True
+
+    def assert_status_success(self, status, skip_not_supported=True, skip_not_implemented=True):
+        if skip_not_supported:
+            if status == "SAI_STATUS_NOT_SUPPORTED" or status == "SAI_STATUS_ATTR_NOT_SUPPORTED_0":
+                pytest.skip("not supported")
+    
+        if skip_not_implemented:
+            if status == "SAI_STATUS_NOT_IMPLEMENTED" or status == "SAI_STATUS_ATTR_NOT_IMPLEMENTED_0":
+                pytest.skip("not implemented")
+    
+>       assert status == "SAI_STATUS_SUCCESS"
+E       AssertionError
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:373: AssertionError
+_ test_get_before_set_attr[SAI_PORT_ATTR_RX_SIGNAL_DETECT-sai_port_lane_latch_status_list_t] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_RX_SIGNAL_DETECT'
+attr_type = 'sai_port_lane_latch_status_list_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        port_attrs
+    )
+    def test_get_before_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):#, attr_val):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:33: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:346: in get_by_type
+    status, data = self.get(obj, [attr, ""], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_RX_SIGNAL_DETECT", ""]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_ test_get_before_set_attr[SAI_PORT_ATTR_RX_LOCK_STATUS-sai_port_lane_latch_status_list_t] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_RX_LOCK_STATUS'
+attr_type = 'sai_port_lane_latch_status_list_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        port_attrs
+    )
+    def test_get_before_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):#, attr_val):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:33: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:346: in get_by_type
+    status, data = self.get(obj, [attr, ""], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_RX_LOCK_STATUS", ""]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_ test_get_before_set_attr[SAI_PORT_ATTR_PCS_RX_LINK_STATUS-sai_latch_status_t] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_PCS_RX_LINK_STATUS'
+attr_type = 'sai_latch_status_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        port_attrs
+    )
+    def test_get_before_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):#, attr_val):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:33: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:346: in get_by_type
+    status, data = self.get(obj, [attr, ""], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_PCS_RX_LINK_STATUS", ""]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_ test_get_before_set_attr[SAI_PORT_ATTR_FEC_ALIGNMENT_LOCK-sai_port_lane_latch_status_list_t] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_FEC_ALIGNMENT_LOCK'
+attr_type = 'sai_port_lane_latch_status_list_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        port_attrs
+    )
+    def test_get_before_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):#, attr_val):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:33: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:346: in get_by_type
+    status, data = self.get(obj, [attr, ""], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_FEC_ALIGNMENT_LOCK", ""]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_________ test_get_before_set_attr[SAI_PORT_ATTR_FABRIC_ISOLATE-bool] __________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_FABRIC_ISOLATE'
+attr_type = 'bool'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        port_attrs
+    )
+    def test_get_before_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):#, attr_val):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:33: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:332: in get_by_type
+    status, data = self.get(obj, [attr, "true"], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_FABRIC_ISOLATE", "true"]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_ test_get_before_set_attr[SAI_PORT_ATTR_MAX_FEC_SYMBOL_ERRORS_DETECTABLE-sai_uint32_t] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002'
+attr = 'SAI_PORT_ATTR_MAX_FEC_SYMBOL_ERRORS_DETECTABLE'
+attr_type = 'sai_uint32_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        port_attrs
+    )
+    def test_get_before_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):#, attr_val):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:33: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:346: in get_by_type
+    status, data = self.get(obj, [attr, ""], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_MAX_FEC_SYMBOL_ERRORS_DETECTABLE", ""]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+________________ test_set_attr[SAI_PORT_ATTR_ADMIN_STATE-true] _________________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_ADMIN_STATE'
+attr_value = 'true'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_ADMIN_STATE", "true"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+________________ test_set_attr[SAI_PORT_ATTR_ADMIN_STATE-false] ________________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_ADMIN_STATE'
+attr_value = 'false'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_ADMIN_STATE", "false"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+________________ test_set_attr[SAI_PORT_ATTR_PORT_VLAN_ID-100] _________________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_PORT_VLAN_ID'
+attr_value = '100'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_PORT_VLAN_ID", "100"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_____________ test_set_attr[SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY-3] _____________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002'
+attr = 'SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY', attr_value = '3'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY", "3"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_______________ test_set_attr[SAI_PORT_ATTR_DROP_UNTAGGED-true] ________________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_DROP_UNTAGGED'
+attr_value = 'true'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_DROP_UNTAGGED", "true"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_______________ test_set_attr[SAI_PORT_ATTR_DROP_UNTAGGED-false] _______________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_DROP_UNTAGGED'
+attr_value = 'false'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_DROP_UNTAGGED", "false"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+________________ test_set_attr[SAI_PORT_ATTR_DROP_TAGGED-true] _________________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_DROP_TAGGED'
+attr_value = 'true'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_DROP_TAGGED", "true"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+________________ test_set_attr[SAI_PORT_ATTR_DROP_TAGGED-false] ________________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_DROP_TAGGED'
+attr_value = 'false'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_DROP_TAGGED", "false"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_ test_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002'
+attr = 'SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE'
+attr_value = 'SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE", "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"]'
+op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_ test_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002'
+attr = 'SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE'
+attr_value = 'SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE", "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"]'
+op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_ test_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002'
+attr = 'SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE'
+attr_value = 'SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE", "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"]'
+op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+________________ test_set_attr[SAI_PORT_ATTR_UPDATE_DSCP-true] _________________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_UPDATE_DSCP'
+attr_value = 'true'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_UPDATE_DSCP", "true"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+________________ test_set_attr[SAI_PORT_ATTR_UPDATE_DSCP-false] ________________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_UPDATE_DSCP'
+attr_value = 'false'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_UPDATE_DSCP", "false"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+____________________ test_set_attr[SAI_PORT_ATTR_MTU-9000] _____________________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_MTU'
+attr_value = '9000'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_MTU", "9000"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+___________________ test_set_attr[SAI_PORT_ATTR_TPID-37120] ____________________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_TPID'
+attr_value = '37120'
+
+    @pytest.mark.parametrize(
+        "attr,attr_value",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "true"),
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "false"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "100"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "3"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "true"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "false"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "true"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "false"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "true"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "false"),
+            ("SAI_PORT_ATTR_MTU",                       "9000"),
+            ("SAI_PORT_ATTR_TPID",                      "37120"),   # TPID=0x9100
+        ],
+    )
+    def test_set_attr(npu, dataplane, sai_port_obj, attr, attr_value):
+>       status = npu.set(sai_port_obj, [attr, attr_value], False)
+
+ut/test_port_ut.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:204: in set
+    return self.sai_client.set(obj, attr, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:167: in set
+    status = self.operate(obj, attr, "Sset")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_TPID", "37120"]', op = 'Sset'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sset" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+___________ test_get_after_set_attr[SAI_PORT_ATTR_ADMIN_STATE-bool] ____________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_ADMIN_STATE'
+attr_type = 'bool'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "bool"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "sai_uint16_t"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "sai_uint8_t"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "bool"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "bool"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "sai_port_internal_loopback_mode_t"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "bool"),
+            ("SAI_PORT_ATTR_MTU",                       "sai_uint32_t"),
+            ("SAI_PORT_ATTR_TPID",                      "sai_uint16_t"),
+        ]
+    )
+    def test_get_after_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:332: in get_by_type
+    status, data = self.get(obj, [attr, "true"], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_ADMIN_STATE", "true"]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_______ test_get_after_set_attr[SAI_PORT_ATTR_PORT_VLAN_ID-sai_uint16_t] _______
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_PORT_VLAN_ID'
+attr_type = 'sai_uint16_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "bool"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "sai_uint16_t"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "sai_uint8_t"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "bool"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "bool"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "sai_port_internal_loopback_mode_t"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "bool"),
+            ("SAI_PORT_ATTR_MTU",                       "sai_uint32_t"),
+            ("SAI_PORT_ATTR_TPID",                      "sai_uint16_t"),
+        ]
+    )
+    def test_get_after_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:346: in get_by_type
+    status, data = self.get(obj, [attr, ""], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_PORT_VLAN_ID", ""]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+___ test_get_after_set_attr[SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY-sai_uint8_t] ___
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002'
+attr = 'SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY', attr_type = 'sai_uint8_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "bool"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "sai_uint16_t"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "sai_uint8_t"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "bool"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "bool"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "sai_port_internal_loopback_mode_t"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "bool"),
+            ("SAI_PORT_ATTR_MTU",                       "sai_uint32_t"),
+            ("SAI_PORT_ATTR_TPID",                      "sai_uint16_t"),
+        ]
+    )
+    def test_get_after_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:346: in get_by_type
+    status, data = self.get(obj, [attr, ""], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY", ""]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+__________ test_get_after_set_attr[SAI_PORT_ATTR_DROP_UNTAGGED-bool] ___________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_DROP_UNTAGGED'
+attr_type = 'bool'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "bool"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "sai_uint16_t"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "sai_uint8_t"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "bool"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "bool"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "sai_port_internal_loopback_mode_t"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "bool"),
+            ("SAI_PORT_ATTR_MTU",                       "sai_uint32_t"),
+            ("SAI_PORT_ATTR_TPID",                      "sai_uint16_t"),
+        ]
+    )
+    def test_get_after_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:332: in get_by_type
+    status, data = self.get(obj, [attr, "true"], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_DROP_UNTAGGED", "true"]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+___________ test_get_after_set_attr[SAI_PORT_ATTR_DROP_TAGGED-bool] ____________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_DROP_TAGGED'
+attr_type = 'bool'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "bool"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "sai_uint16_t"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "sai_uint8_t"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "bool"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "bool"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "sai_port_internal_loopback_mode_t"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "bool"),
+            ("SAI_PORT_ATTR_MTU",                       "sai_uint32_t"),
+            ("SAI_PORT_ATTR_TPID",                      "sai_uint16_t"),
+        ]
+    )
+    def test_get_after_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:332: in get_by_type
+    status, data = self.get(obj, [attr, "true"], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_DROP_TAGGED", "true"]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+_ test_get_after_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-sai_port_internal_loopback_mode_t] _
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002'
+attr = 'SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE'
+attr_type = 'sai_port_internal_loopback_mode_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "bool"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "sai_uint16_t"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "sai_uint8_t"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "bool"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "bool"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "sai_port_internal_loopback_mode_t"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "bool"),
+            ("SAI_PORT_ATTR_MTU",                       "sai_uint32_t"),
+            ("SAI_PORT_ATTR_TPID",                      "sai_uint16_t"),
+        ]
+    )
+    def test_get_after_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:346: in get_by_type
+    status, data = self.get(obj, [attr, ""], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE", ""]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+___________ test_get_after_set_attr[SAI_PORT_ATTR_UPDATE_DSCP-bool] ____________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_UPDATE_DSCP'
+attr_type = 'bool'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "bool"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "sai_uint16_t"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "sai_uint8_t"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "bool"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "bool"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "sai_port_internal_loopback_mode_t"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "bool"),
+            ("SAI_PORT_ATTR_MTU",                       "sai_uint32_t"),
+            ("SAI_PORT_ATTR_TPID",                      "sai_uint16_t"),
+        ]
+    )
+    def test_get_after_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:332: in get_by_type
+    status, data = self.get(obj, [attr, "true"], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_UPDATE_DSCP", "true"]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+___________ test_get_after_set_attr[SAI_PORT_ATTR_MTU-sai_uint32_t] ____________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_MTU'
+attr_type = 'sai_uint32_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "bool"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "sai_uint16_t"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "sai_uint8_t"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "bool"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "bool"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "sai_port_internal_loopback_mode_t"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "bool"),
+            ("SAI_PORT_ATTR_MTU",                       "sai_uint32_t"),
+            ("SAI_PORT_ATTR_TPID",                      "sai_uint16_t"),
+        ]
+    )
+    def test_get_after_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:346: in get_by_type
+    status, data = self.get(obj, [attr, ""], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_MTU", ""]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+___________ test_get_after_set_attr[SAI_PORT_ATTR_TPID-sai_uint16_t] ___________
+
+npu = <sai_npu.SaiNpuImpl object at 0x7f3833440cc0>
+dataplane = <[AttributeError("'SaiPtfDataPlane' object has no attribute '_testMethodName'") raised in repr()] SaiPtfDataPlane object at 0x7f38332ce860>
+sai_port_obj = 'oid:0x1000000000002', attr = 'SAI_PORT_ATTR_TPID'
+attr_type = 'sai_uint16_t'
+
+    @pytest.mark.parametrize(
+        "attr,attr_type",
+        [
+            ("SAI_PORT_ATTR_ADMIN_STATE",               "bool"),
+            ("SAI_PORT_ATTR_PORT_VLAN_ID",              "sai_uint16_t"),
+            ("SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY",     "sai_uint8_t"),
+            ("SAI_PORT_ATTR_DROP_UNTAGGED",             "bool"),
+            ("SAI_PORT_ATTR_DROP_TAGGED",               "bool"),
+            ("SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE",    "sai_port_internal_loopback_mode_t"),
+            ("SAI_PORT_ATTR_UPDATE_DSCP",               "bool"),
+            ("SAI_PORT_ATTR_MTU",                       "sai_uint32_t"),
+            ("SAI_PORT_ATTR_TPID",                      "sai_uint16_t"),
+        ]
+    )
+    def test_get_after_set_attr(npu, dataplane, sai_port_obj, attr, attr_type):
+>       status, data = npu.get_by_type(sai_port_obj, attr, attr_type, do_assert = False)
+
+ut/test_port_ut.py:85: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:346: in get_by_type
+    status, data = self.get(obj, [attr, ""], do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai.py:207: in get
+    return self.sai_client.get(obj, attrs, do_assert)
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:182: in get
+    status = self.operate(obj, attrs, "Sget")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <sai_client.sai_redis_client.sai_redis_client.SaiRedisClient object at 0x7f38334409e8>
+obj = 'SAI_OBJECT_TYPE_PORT:oid:0x1000000000002'
+attrs = '["SAI_PORT_ATTR_TPID", ""]', op = 'Sget'
+
+    def operate(self, obj, attrs, op):
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+        tout = 0.01
+        attempts = self.attempts
+        while len(self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)) > 0 and attempts > 0:
+            time.sleep(0.01)
+            attempts -= 1
+    
+        if attempts == 0:
+            return []
+    
+        # Remove spaces from the key string.
+        # Required by sai_serialize_route_entry() in sairedis.
+        obj = obj.replace(' ', '')
+    
+        self.r.lpush("ASIC_STATE_KEY_VALUE_OP_QUEUE", obj, attrs, op)
+        self.r.publish("ASIC_STATE_CHANNEL@1", "G")
+    
+        status = []
+        attempts = self.attempts
+    
+        # Wait upto 3 mins for switch init on HW
+        if not self.libsaivs and obj.startswith("SAI_OBJECT_TYPE_SWITCH") and op == "Screate":
+            tout = 0.5
+            attempts = 240
+    
+        while len(status) < 3 and attempts > 0:
+            time.sleep(tout)
+            attempts -= 1
+            status = self.r.lrange("GETRESPONSE_KEY_VALUE_OP_QUEUE", 0, -1)
+    
+        self.r.delete("GETRESPONSE_KEY_VALUE_OP_QUEUE")
+    
+>       assert len(status) == 3, "SAI \"{}\" operation failure!".format(op)
+E       AssertionError: SAI "Sget" operation failure!
+
+/usr/local/lib/python3.7/dist-packages/saichallenger/common/sai_client/sai_redis_client/sai_redis_client.py:120: AssertionError
+---------------------------- Captured log teardown -----------------------------
+INFO     dataplane:dataplane.py:667 Thread exit
+=========================== short test summary info ============================
+FAILED ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_EYE_VALUES-sai_port_eye_values_list_t]
+FAILED ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PRBS_RX_STATE-sai_prbs_rx_state_t]
+FAILED ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_ERR_STATUS_LIST-sai_port_err_status_list_t]
+FAILED ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FABRIC_REACHABILITY-sai_fabric_port_reachability_t]
+FAILED ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_RX_SIGNAL_DETECT-sai_port_lane_latch_status_list_t]
+FAILED ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_RX_LOCK_STATUS-sai_port_lane_latch_status_list_t]
+FAILED ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_PCS_RX_LINK_STATUS-sai_latch_status_t]
+FAILED ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FEC_ALIGNMENT_LOCK-sai_port_lane_latch_status_list_t]
+FAILED ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_FABRIC_ISOLATE-bool]
+FAILED ut/test_port_ut.py::test_get_before_set_attr[SAI_PORT_ATTR_MAX_FEC_SYMBOL_ERRORS_DETECTABLE-sai_uint32_t]
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_ADMIN_STATE-true] - As...
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_ADMIN_STATE-false] - A...
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_PORT_VLAN_ID-100] - As...
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY-3]
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_DROP_UNTAGGED-true] - ...
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_DROP_UNTAGGED-false]
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_DROP_TAGGED-true] - As...
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_DROP_TAGGED-false] - A...
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-SAI_PORT_INTERNAL_LOOPBACK_MODE_PHY]
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-SAI_PORT_INTERNAL_LOOPBACK_MODE_NONE]
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-SAI_PORT_INTERNAL_LOOPBACK_MODE_MAC]
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_UPDATE_DSCP-true] - As...
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_UPDATE_DSCP-false] - A...
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_MTU-9000] - AssertionE...
+FAILED ut/test_port_ut.py::test_set_attr[SAI_PORT_ATTR_TPID-37120] - Assertio...
+FAILED ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_ADMIN_STATE-bool]
+FAILED ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_PORT_VLAN_ID-sai_uint16_t]
+FAILED ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_DEFAULT_VLAN_PRIORITY-sai_uint8_t]
+FAILED ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_DROP_UNTAGGED-bool]
+FAILED ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_DROP_TAGGED-bool]
+FAILED ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_INTERNAL_LOOPBACK_MODE-sai_port_internal_loopback_mode_t]
+FAILED ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_UPDATE_DSCP-bool]
+FAILED ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_MTU-sai_uint32_t]
+FAILED ut/test_port_ut.py::test_get_after_set_attr[SAI_PORT_ATTR_TPID-sai_uint16_t]
+========= 34 failed, 15 passed, 130 skipped, 389 deselected in 20.44s ==========
+ERROR: "docker exec ${TTY} ${CONTAINER} ${EXEC_CMD}" command filed with exit code 1.
+
+===========================================
+     SAI Challenger run options
+===========================================
+
+ Docker image type  : standalone
+ ASIC name          : trident2
+ ASIC target        : saivs
+ Platform path      : ./npu/broadcom/trident2
+ SAI interface      : redis
+ Container name     : sc-trident2-saivs-run
+ Command            : pytest --testbed=saivs_standalone -v -k test_port_ut.py
+
+===========================================
+

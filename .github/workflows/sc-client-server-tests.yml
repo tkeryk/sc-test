@@ -1,0 +1,43 @@
+name: sc-client-server-tests
+
+on:
+  pull_request:
+    types: [ opened, synchronize, reopened ]
+    branches: [ "**" ]
+    paths:
+      - '.github/workflows/sc-client-server-tests.yml'
+      - 'tests/**'
+
+jobs: 
+  run-sc-tests:
+    name: Run SAI Challenger tests in client-server mode
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v3
+    - name: Update submodules.
+      run: git submodule update --init
+    - name: Log into GitHub Container Registry
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login https://ghcr.io -u ${{ github.actor }} --password-stdin
+    - name: docker pull sc-client
+      run: docker image pull ghcr.io/taras-keryk-plv/sc-client 
+    - name: docker rename sc-client
+      run: docker image tag ghcr.io/taras-keryk-plv/sc-client:latest sc-client:latest    
+    - name: docker pull sc-server
+      run: docker image pull ghcr.io/taras-keryk-plv/sc-server-trident2-saivs 
+    - name: docker rename sc-server
+      run: docker image tag ghcr.io/taras-keryk-plv/sc-server-trident2-saivs:latest sc-server-trident2-saivs:latest
+    - name: Start SAI-C client
+      run: ./run.sh -i client
+    - name: Wait for the client to get the IP address first
+      run: sleep 5s
+    - name: Start SAI-C server
+      run: ./run.sh -i server -a trident2 -t saivs
+    - name: Create veth links between client and server dockers
+      run: sudo ./veth-create-host.sh sc-server-trident2-saivs-run sc-client-run
+    - name: Wait for SAI-C server services to come up
+      run: sleep 10s
+    - name: Run functional test cases
+      run: ./exec.sh --no-tty -i client pytest --testbed=saivs_client_server -v -k "test_l2_basic"
+    - name: Run unit tests
+      run: ./exec.sh --no-tty -i client pytest --testbed=saivs_client_server -v -k \
+           "test_acl_ut or test_bridge_ut or test_switch_ut or test_vrf_ut or test_port_ut.py"
